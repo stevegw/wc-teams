@@ -1,0 +1,27 @@
+{
+  "id": "teams.team-template-oir",
+  "title": "Team Template + Object Initialization Rule (OIR)",
+  "level": "Intermediate",
+  "summary": "Define roles for workflow-driven objects in a team template and bind via OIR with a lifecycle.",
+  "steps": [
+    {
+      "label": "Create a Team Template",
+      "where": "Utilities → Team Administration",
+      "action": "New Team Template; add only roles required by your workflow; avoid pre‑assigning named users here.",
+      "verify": "Template saved with intended roles only."
+    },
+    {
+      "label": "Create an OIR for the target type",
+      "where": "Utilities → Object Initialization Rules",
+      "action": "New OIR; select object type (e.g., a specific Document subtype); associate lifecycle template and the team template.",
+      "verify": "New objects of that type show the expected lifecycle and team template on the info page."
+    }
+  ],
+  "resources": [
+    {
+      "type": "doc",
+      "label": "Reference: Team templates & OIR binding",
+      "href": "about:blank"
+    }
+  ]
+}

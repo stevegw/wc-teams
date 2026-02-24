@@ -1,0 +1,54 @@
+[
+  {
+    "id": "participants.create-user",
+    "title": "Create a Windchill User (Participants)",
+    "tags": [
+      "Participants",
+      "Users",
+      "Admin"
+    ]
+  },
+  {
+    "id": "licensing.assign-license-group",
+    "title": "Assign License via License Group & Understand Profiles",
+    "tags": [
+      "Licensing",
+      "Profiles",
+      "Groups"
+    ]
+  },
+  {
+    "id": "teams.context-team-basics",
+    "title": "Context Team: Roles, Context Groups, and ACLs",
+    "tags": [
+      "Teams",
+      "Roles",
+      "ACL"
+    ]
+  },
+  {
+    "id": "teams.shared-teams",
+    "title": "Shared Teams: Reuse a Team Across Multiple Contexts",
+    "tags": [
+      "Teams",
+      "Shared Teams"
+    ]
+  },
+  {
+    "id": "teams.team-template-oir",
+    "title": "Team Template + Object Initialization Rule (OIR)",
+    "tags": [
+      "Team Templates",
+      "Lifecycle",
+      "OIR"
+    ]
+  },
+  {
+    "id": "role-resolution.explainer",
+    "title": "Role Resolution: How the Team Instance is Built",
+    "tags": [
+      "Role Resolution",
+      "Advanced Workflows"
+    ]
+  }
+]

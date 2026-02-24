@@ -1,0 +1,40 @@
+{
+  "id": "participants.create-user",
+  "title": "Create a Windchill User (Participants)",
+  "level": "Beginner",
+  "summary": "Add a user account using Participant Administration and place it in initial groups.",
+  "steps": [
+    {
+      "label": "Open Participant Administration",
+      "where": "Navigator → Organizations → <Your Org> → Utilities → Participant Administration",
+      "action": "Click ‘Create new user’.",
+      "verify": "A new user creation dialog appears."
+    },
+    {
+      "label": "Enter required details",
+      "action": "Provide Name (username), Full Name, Last Name; add an email for notifications; set Organization.",
+      "verify": "The user can be saved without validation errors.",
+      "notes": [
+        "Participant attributes like name/email typically live in your directory service, while Windchill-specific info (teams, ACL) is stored in the WC database.",
+        "If not associated with an Organization, the user may end up in the Unaffiliated domain and be harder to find."
+      ]
+    },
+    {
+      "label": "Set initial password & save",
+      "action": "Set an initial password (or your org’s provisioning approach) and finish the wizard.",
+      "verify": "User appears in the Users table."
+    },
+    {
+      "label": "(Optional) Add to admin or starter groups",
+      "action": "Add Organization Administrator or other seed groups as needed for your environment.",
+      "verify": "Groups are listed for the user."
+    }
+  ],
+  "resources": [
+    {
+      "type": "doc",
+      "label": "Reference: Participants & storage split",
+      "href": "about:blank"
+    }
+  ]
+}

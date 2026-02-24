@@ -1,0 +1,39 @@
+{
+  "id": "licensing.assign-license-group",
+  "title": "Assign License via License Group & Understand Profiles",
+  "level": "Beginner",
+  "summary": "Add users to the appropriate license group; validate profile-driven action visibility.",
+  "steps": [
+    {
+      "label": "Open Profiles",
+      "where": "Navigator → <Org> → Profiles",
+      "action": "Open the relevant License Profile and view its information.",
+      "verify": "Profile details are visible (features, scope)."
+    },
+    {
+      "label": "Add users to the license group",
+      "action": "From the profile, follow the link to its license group → Edit Group → Add members (users/groups).",
+      "verify": "Users now inherit the license entitlement."
+    },
+    {
+      "label": "(Optional) Use a standard profile to hide UI actions",
+      "action": "Create/assign a standard profile to hide actions not needed beyond license entitlement.",
+      "verify": "UI shows only relevant actions for the user."
+    },
+    {
+      "label": "Named vs Active Daily (awareness)",
+      "action": "Choose license group based on usage model (fixed named vs daily concurrent).",
+      "verify": "Assignment matches your purchased model.",
+      "notes": [
+        "Named user groups have a fixed capacity; Active Daily allows many members but locks a seat per day when a user signs in."
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "type": "doc",
+      "label": "Reference: License groups & profiles",
+      "href": "about:blank"
+    }
+  ]
+}

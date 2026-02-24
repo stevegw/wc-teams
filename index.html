@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Windchill Teams Assistant</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="brand">WCAI – Teams & Roles</div>
+    <div class="actions">
+      <button id="themeToggle" title="Toggle theme">🌓</button>
+      <button id="exportProgress" title="Export progress">⬇️ Export</button>
+      <button id="resetProgress" title="Reset progress" class="danger">Reset</button>
+    </div>
+  </header>
+  <div class="layout">
+    <aside>
+      <div class="search">
+        <input id="flowSearch" type="text" placeholder="Search flows…" />
+      </div>
+      <nav id="flowList"></nav>
+      <footer>
+        <small>Built for training & enablement. This helper does not modify your server.</small>
+      </footer>
+    </aside>
+    <main>
+      <div id="content">
+        <h1>Windchill Teams Assistant</h1>
+        <p>Select a flow on the left to begin. Steps include where to click, what to do, and what to verify. Your progress is saved locally.</p>
+      </div>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

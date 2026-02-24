@@ -1,0 +1,32 @@
+{
+  "id": "teams.shared-teams",
+  "title": "Shared Teams: Reuse a Team Across Multiple Contexts",
+  "level": "Intermediate",
+  "summary": "Create a shared team at the org level and apply it to new contexts; optionally allow local extension.",
+  "steps": [
+    {
+      "label": "Create a shared team",
+      "where": "Navigator → Organizations → <Org> → Teams",
+      "action": "New Shared Team; give it a clear name and (optionally) allow local extension in associated contexts.",
+      "verify": "Shared team appears in the list."
+    },
+    {
+      "label": "Use shared team when creating a context",
+      "where": "New Product/Library dialog",
+      "action": "Select the shared team; decide if local additions are permitted.",
+      "verify": "New context shows shared team roles/members; local additions respect settings."
+    },
+    {
+      "label": "Where‑used",
+      "action": "From the shared team page, run ‘Show Team Uses’ to see which contexts are impacted by changes.",
+      "verify": "Report lists contexts using this shared team."
+    }
+  ],
+  "resources": [
+    {
+      "type": "doc",
+      "label": "Reference: Shared team usage & where‑used",
+      "href": "about:blank"
+    }
+  ]
+}
