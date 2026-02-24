@@ -12,20 +12,20 @@
     },
     {
       "label": "Add/remove roles",
-      "action": "Actions → Add Roles (add only what you need); remove unused roles when creating templates for new contexts.",
+      "action": "Actions → Add Roles (only what you need); remove unused roles in templates for new contexts.",
       "verify": "Roles reflect intended responsibility model."
     },
     {
       "label": "Apply ACLs via Policy Administration",
       "where": "Utilities → Policy Administration",
-      "action": "Write rules to context roles or to the generated context groups; remember Team Members is a superset of all non‑Guest role members.",
+      "action": "Write rules to context roles or generated context groups; Team Members is a superset of all non‑Guest members.",
       "verify": "Access behaves as expected for different roles."
     }
   ],
   "resources": [
     {
       "type": "doc",
-      "label": "Reference: Team Members superset & policy rules",
+      "label": "Team Members superset & policy rules",
       "href": "about:blank"
     }
   ]

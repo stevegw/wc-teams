@@ -8,31 +8,31 @@
       "label": "Open Profiles",
       "where": "Navigator → <Org> → Profiles",
       "action": "Open the relevant License Profile and view its information.",
-      "verify": "Profile details are visible (features, scope)."
+      "verify": "Profile details are visible."
     },
     {
       "label": "Add users to the license group",
-      "action": "From the profile, follow the link to its license group → Edit Group → Add members (users/groups).",
-      "verify": "Users now inherit the license entitlement."
+      "action": "From the profile, follow the link to its license group → Edit Group → Add members.",
+      "verify": "Users inherit license entitlement."
     },
     {
-      "label": "(Optional) Use a standard profile to hide UI actions",
+      "label": "(Optional) Hide actions with a standard profile",
       "action": "Create/assign a standard profile to hide actions not needed beyond license entitlement.",
-      "verify": "UI shows only relevant actions for the user."
+      "verify": "UI shows only relevant actions."
     },
     {
       "label": "Named vs Active Daily (awareness)",
       "action": "Choose license group based on usage model (fixed named vs daily concurrent).",
-      "verify": "Assignment matches your purchased model.",
+      "verify": "Assignment matches purchased model.",
       "notes": [
-        "Named user groups have a fixed capacity; Active Daily allows many members but locks a seat per day when a user signs in."
+        "Named user groups have fixed capacity; Active Daily locks a seat per day when a user signs in."
       ]
     }
   ],
   "resources": [
     {
       "type": "doc",
-      "label": "Reference: License groups & profiles",
+      "label": "License groups & profiles",
       "href": "about:blank"
     }
   ]

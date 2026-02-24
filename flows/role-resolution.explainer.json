@@ -2,23 +2,23 @@
   "id": "role-resolution.explainer",
   "title": "Role Resolution: How the Team Instance is Built",
   "level": "Explainer",
-  "summary": "Understand the order: Team Template → Lifecycle Template → Context Team → Workflow; team instances are not retro‑updated.",
+  "summary": "Order: Team Template → Lifecycle Template → Context Team → Workflow; team instances are not retro‑updated.",
   "steps": [
     {
       "label": "Build order",
-      "action": "When a process starts, Windchill resolves roles in this order: (1) Team Template adds roles and any mapped participants; (2) Lifecycle state adds any additional roles; (3) Context Team augments participants for roles already in the instance; (4) Workflow adds missing process roles.",
-      "verify": "Your team instance lists only roles from TT/LCT/WF; CT augments users but does not add new roles."
+      "action": "When a process starts, resolve roles: (1) Team Template adds roles/participants; (2) Lifecycle adds roles; (3) Context Team augments participants for existing roles; (4) Workflow adds missing process roles.",
+      "verify": "Team instance lists only roles from TT/LCT/WF; CT augments users but does not add roles."
     },
     {
       "label": "No retro‑update",
-      "action": "Changing the team template or lifecycle later does not rewrite an already‑created team instance; update via Setup Participants or object details if needed.",
+      "action": "Changing templates later does not rewrite an existing team instance; update via Setup Participants or object details.",
       "verify": "Existing instances remain unchanged after template edits."
     }
   ],
   "resources": [
     {
       "type": "doc",
-      "label": "Reference: Team instance resolution details",
+      "label": "Team instance resolution",
       "href": "about:blank"
     }
   ]
